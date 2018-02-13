@@ -42,12 +42,17 @@ h6, .h6 {
 }
 
 /* Nav links */
+.blog-nav {
+    float: right;
+}
+
 .blog-nav-item {
-  position: relative;
-  display: inline-block;
-  padding: 10px;
-  font-weight: 500;
-  color: #cdddeb;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    color: #cdddeb;
+    float: right;
 }
 .blog-nav-item:hover,
 .blog-nav-item:focus {
@@ -142,7 +147,7 @@ h6, .h6 {
 }
 .blog-post-title {
   margin-bottom: 5px;
-  font-size: 40px;
+  /*font-size: 40px;*/
 }
 .blog-post-meta {
   margin-bottom: 20px;
